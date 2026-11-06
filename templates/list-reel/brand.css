@@ -1,0 +1,21 @@
+/* Your brand. The template's components read only these tokens: change them, not base.css.
+   Fonts: put .ttf/.woff2 files in assets/fonts/ and point the @font-face rules at them,
+   or leave the system stacks below. */
+:root {
+  --ground: #0d0f14;          /* page background */
+  --ground-glow: rgba(79, 124, 255, .16);   /* soft glow behind the top panel; transparent to remove */
+  --accent: #4f7cff;          /* the one accent colour: chip dash, seam, rings, the accent word */
+  --accent-ink: #ffffff;      /* text on accent fills (buttons, pills) */
+  --text: #f4f4f5;
+  --muted: #8b8f98;
+  --card: #15171d;            /* dark cards and chips */
+  --card-line: #2a2d35;
+  --paper: #f6f6f4;           /* light cards (hook headline card) */
+  --paper-ink: #111111;
+  --font-head: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;   /* headlines */
+  --font-accent: Georgia, "Times New Roman", serif;                         /* the one accent word (italic) */
+  --font-mono: ui-monospace, "SF Mono", Menlo, monospace;                    /* labels, chip names */
+  --font-caption: "Inter", system-ui, -apple-system, sans-serif;            /* captions */
+  --caption-bg: rgba(14, 14, 14, .9);
+  --caption-ink: #ffffff;
+}

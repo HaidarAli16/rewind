@@ -1,0 +1,49 @@
+{
+  "fps": 30,
+  "duration": 24.0,
+  "audio": "assets/mix.wav",
+  "face_half": "assets/face_half.mp4",
+  "face_full": "assets/face_full.mp4",
+
+  "hook": {
+    "end": 3.0,
+    "card": ["*3* free tools", "for your next project"],
+    "captions": [["*3 free* tools", 0.1], ["for your", 1.2], ["next *project*.", 2.0]]
+  },
+
+  "intro": {
+    "start": 3.0, "end": 6.0,
+    "title": [{"text": "These", "t": 3.05}, {"text": "3", "accent": true, "t": 3.4}],
+    "subtitle": [{"text": "save", "t": 4.2}, {"text": "hours", "accent": true, "t": 4.6}]
+  },
+
+  "items": [
+    {
+      "name": "Tool One", "chip_label": "TOOL ONE", "logo": "assets/img/tool1.png",
+      "title": [{"text": "Tool", "accent": true, "t": 6.4}, {"text": "One", "t": 6.6}],
+      "t_chip": 6.0, "t_demo": 7.0, "t_end": 12.0,
+      "demo": "assets/tool1.mp4", "domain": "toolone.example", "demo_start": 0.3,
+      "captions": [["does *this*,", 7.1], ["and *that*", 8.4], ["in one *click*.", 10.2]]
+    },
+    {
+      "name": "Tool Two", "chip_label": "TOOL TWO", "logo": "assets/img/tool2.png",
+      "title": [{"text": "Tool", "t": 12.3}, {"text": "Two", "accent": true, "t": 12.5}],
+      "t_chip": 12.0, "t_demo": 13.0, "t_end": 16.5,
+      "demo": "assets/tool2.mp4", "domain": "tooltwo.example",
+      "captions": [["*ready-made*", 13.1], ["and *free*.", 14.8]]
+    },
+    {
+      "name": "Tool Three", "chip_label": "TOOL THREE", "logo": "assets/img/tool3.png",
+      "title": [{"text": "Tool", "t": 16.8}, {"text": "Three", "accent": true, "t": 17.0}],
+      "t_chip": 16.5, "t_demo": 17.5, "t_end": 20.0,
+      "demo": "assets/tool3.mp4", "domain": "toolthree.example",
+      "captions": [["for *teams*.", 17.6]]
+    }
+  ],
+
+  "cta": {
+    "start": 20.0, "name": "Your Name", "tagline": "BUILDS WITH AI", "keyword": "TOOLS",
+    "t_follow": 21.0, "t_comment": 21.6, "t_type": 21.8, "t_post": 22.5, "t_send": 23.0,
+    "captions": [["hit *follow*", 20.8], ["comment *TOOLS*", 21.6], ["I'll send you", 22.5], ["all *3*.", 23.2]]
+  }
+}
